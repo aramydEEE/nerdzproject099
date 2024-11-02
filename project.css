@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Deal Online | Konga Online Shopping</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Picture1.png">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.min.css">
+</head>
+<body>
+    <div class="fix">
+    <div><img src="Konga-Health-Reseller-Strip-desktop4.png_HFkehIqZAp.jfif" alt="konga" width="100%"></div>
+    </div>
+    <!-- first row -->
+    <div class="first">
+        <div><a href=""><img src="k_travels2.webp" alt="TRAVEL"></a></div>
+        <div><a href=""><img src="konga_pay.webp" alt="KongaPay"></a></div>
+        <div><a href=""><img src="new_konga_drinks.webp" alt="Konga Corporate"></a></div>
+        <div><a href=""><img src="konga_health.webp" alt="KongaHealth"></a></div>
+        <div><a href=""><img src="k_express2.webp" alt="LOGISTICS"></a></div>
+        <div><a href=""><img src="new_konga_groceries.webp" alt="GROCERIES"></a></div> 
+        <div><a href=""><img src="kongaTV.webp" alt="KongaTV"></a></div>
+        <div><a href=""><img src="KongaNow.webp" alt="KongaNOW"></a></div>
+       
+    </div>
+    <div class="fix">
+    <!-- second row -->
+        <div class="second">
+            <div><a href=""><img src="logo.png" alt="logo" id="logo"></a></div>
+            <div><a href="" id="a">Store Locator</a></div>
+            <div><a href="" id="b">Sell on Konga</a></div>
+            <form action="">
+                <input type="search" id="search" placeholder="Search for products, brands and categories">
+                <button><i class="ri-search-line"></i></button>
+            </form>
+            <select name="" id="">
+                <option value="" id="c">Help</option>
+            </select>
+            <button id="d">Login / Signup</button>
+            <div class="cart">
+                <a href=""><i class="ri-luggage-cart-fill"></i>My Cart <span id="cart">0</span></a>
+            </div>
+        </div>
+    <!-- third row -->
+        <div class="third">
+            <div><a href="" id="f">All Categories</a></div>
+            <div><a href="" id="e">Computer and Accessories</a></div>
+            <div><a href="">Phones and Tablets</a></div>
+            <div><a href="">Electronics</a></div>
+            <div><a href="">Konga Fashion</a></div>
+            <div><a href="">Home and Kitchen</a></div> 
+            <div><a href="">Baby, kids and Toys</a></div>
+            <div><a href="" id="g">Beauty, Health & Personal Care</a></div>
+        </div>
+        
+    </div>
+    <div class="top-text">
+        <p id="top-text1">Home<span id="gray">></span><span id="purple">Daily Deals</span></p>
+        <h1 id="top-text2">Amazing Deals Online</h1>
+    </div>
+        <div><img src="LG X Konga_ Quadwash Dishwasher X Detergent_Dealspage banner 1789x   368.jpg_Dcdjzwr0e.webp" alt="banner" id="banner"></div>
+        <div class="row1">
+            <div class="move"><img src="_1634828123.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                    <p class="price">#590,000</p>
+                    <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+                    <p>Sold: 50%</p>
+                    <div id="bar_outer">
+                        <div id="bar_inner"></div>
+                    </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="_1695377658.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="_1715267378.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="_1723716535.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="79497_1653286886.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+        </div>
+        <div class="row2">
+            <div class="move"><img src="79497_1661037279.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1537182762.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="118566_1645776559.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1645779119.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1667976856.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+        </div>
+        <div class="row3">
+            <div class="move"><img src="118566_1712592372.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="118566_1712593355.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="118566_1712594038.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="118566_1712651312.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1712653113.webp" alt="" width="250px" height="180px">
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>
+        <div class="row4">
+            <div class="move"><img src="118566_1727163491.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1728310405.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1728311831.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1728312940.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1728313896.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+        </div>
+        <div class="row5">
+            <div class="move"><img src="118566_1728314577.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729176869.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729177638.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729274471.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a></div>
+            <div><img src="171328_1680500226.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>
+        <div class="row6">
+            <div class="move"><img src="171328_1681183756.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1593853315.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+               <p class="price">#590,000</p>
+               <p class="strike">#900,000 </p>
+                <p><span>-40%</span></p>
+            </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1593889735.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1689940018.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1697546397.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>
+        <div class="row7">
+            <div class="move"><img src="174740_1701422055.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="174740_1703076394.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1715177619.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1715178605.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="174740_1715179904.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>
+         <div class="row8">
+            <div class="move"><img src="230034_1723555589.webp" alt="" width="250px" height="180px">
+             <p>Starlink Actuated Standard kit</p>
+             <hr>
+             <div class="bold">
+               <p class="price">#590,000</p>
+               <p class="strike">#900,000 </p>
+                <p><span>-40%</span></p>
+            </div>
+            <hr>
+           
+            <p>2days - 8hrs 36mins 34secs</p>
+            <hr>
+            <div class="item">
+            <p>Sold: 50%</p>
+            <div id="bar_outer">
+                <div id="bar_inner"></div>
+            </div>
+            </div>
+            <br>
+            <a href="" id="a-cart">Add To Cart</a>
+        </div> 
+            <div><img src="231472_1715257583.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="231472_1715258138.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="231472_1715260144.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1715333397.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+                <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p>Sold: 50%</p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+        </div>
+        <div class="row9">
+            <div class="move"><img src="231472_1715345846.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+              <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="231472_1715524723.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+              <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1715597286.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+              <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1715683787.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="231472_1715695321.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+        </div>
+        <div class="row10">
+            <div class="move"><img src="231472_1720695638.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="231472_1720698554.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1720699125.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1727343015.webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="231472_1727437994.webp" alt="" width="250px" height="180px"> 
+                <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>
+         <div class="row11">
+            <div class="move"><img src="118566_1667976856 (1).webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+            <div><img src="118566_1729176869 (1).webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729176869 (2).webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729177638 (1).webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+               </div>
+            <div><img src="118566_1729177638 (2).webp" alt="" width="250px" height="180px"> <p>Starlink Actuated Standard kit</p>
+                <hr>
+               <div class="bold">
+                   <p class="price">#590,000</p>
+                   <p class="strike">#900,000 </p>
+                    <p><span>-40%</span></p>
+                </div>
+               <hr>
+              
+               <p>2days - 8hrs 36mins 34secs</p>
+               <hr>
+               <div class="item">
+               <p><b>Sold: 50%</b></p>
+               <div id="bar_outer">
+                   <div id="bar_inner"></div>
+               </div>
+               </div>
+               <br>
+               <a href="" id="a-cart">Add To Cart</a>
+            </div>
+        </div>  
+    <div class="footer1">
+        <div class="subfoot">
+            <div id="back2">
+            <i class="ri-mail-fill"></i>
+            </div>
+            <div id="mail">
+            <h4>EMAIL SUPPORT</h4>
+            <a href="">help@konga.com</a>
+            </div>
+        </div>
+        <div class="subfoot">
+            <div id="back3">
+            <i class="ri-phone-fill"></i>
+            </div>
+            <div id="phone">
+            <h4>PHONE SUPPORT</h4>
+            <a href="">07080635700, 02018883435</a>
+            </div>
+        </div>
+        <div class="subfoot">
+            <div id="back">
+            <i class="ri-whatsapp-line"></i>
+            </div>
+            <div id="whatsapp">
+            <h4>WHATSAPP</h4>
+            <a href="">09070038400, 08094605555</a>
+            </div>
+        </div>
+        <div id="deal">
+            <h4>GET LATEST DEAL</h4>
+            <p>Our best promotions sent to your inbox.</p>
+        </div>
+        <div>
+            <form action="">
+            <input type="email" id="email" placeholder="Email Address">
+            <button id="sub">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="footer">
+        <hr id="hr1">
+        <p id="copy">Copyright &copy; 2024 Konga.com. All rights reserved</p>
+        <hr id="hr2"> 
+    </div>
+</body>
+</html>
