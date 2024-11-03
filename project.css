@@ -299,8 +299,35 @@ background-color: black;
     width: 300px;
     height: 30px;
  }
- @media screen and (max:700px) {
-    .first{
+ @media  only screen and (max-width: 400px) {
+     body{
+        width: 370px;
+     }
+     .first, .second, .third{
+        display: none;
+     }
+     #banner{
+        display: none;
+     }
+     #top-text2{
+        font-size: 1rem;
+     }
+     .row1, .row2, .row3 {
+        display: flex;
+        flex-wrap: wrap;
+        
+       justify-content: center;
+        overflow: hidden;
+        
+     }
+     .row4, .row5,.row6,.row7, .row8, .row9, .row10, .row11{
+        display: none;
+     }
+     .subfoot{
+        display: none;
+     }
+     
+    #deal{
         display: none;
     }
  }
