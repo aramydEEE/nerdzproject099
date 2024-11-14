@@ -1,0 +1,87 @@
+.face{
+    display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+
+}
+
+.child{
+    box-shadow: 0 0 4px 1px;
+    border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 24px;
+    width: 300px;
+    height: 250px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;  */
+} 
+form{
+    display: flex;
+    justify-content: center;
+     gap: 15px;
+     flex-direction: column;
+    
+    align-items: center;
+     height: 65%;   
+}
+
+#green{
+    background-color: rgb(49, 204, 10);
+    width: 60%;
+    height: 35px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#blue{
+    background-color: rgb(10, 10, 117);
+    width: 280px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+ #relative{
+    margin: 25px;
+ }
+a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+h1{
+    color: rgb(10, 10, 117);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    height: 30px;
+    width: 270px;
+    border-radius: 5px;
+    /* -webkit-transition: 0.5s;
+    transition: 0.5s; */
+    outline: none;
+}
+input:focus{
+    border: 3px solid blue;
+}
+p{
+    font-weight: 800px;
+}
+p span{
+    font-weight: bolder;
+}
+h1 + p{
+    font-weight: bolder;
+}
+/* 
+ hr{ 
+    width: 100%;
+}  */
