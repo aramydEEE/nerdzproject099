@@ -5,6 +5,32 @@ body{
    background-color: #f2f2f2;
    font-size: .8125rem;
    text-align: center;
+   
+}
+.container{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   row-gap: 24px;
+   column-gap: 15px;
+   margin-top: 24px;
+   
+}
+.container > div{
+   width: 280px;
+   height: 450px;
+   background-color: white;
+   padding: 10px;
+   box-sizing: border-box;
+   transition: all 2s ease ;
+}
+.container>div:hover{
+   box-shadow:  0 0 4px 2px gray;
+}
+a{
+   text-decoration: none;
+   color: white;
 }
 .first{
    
@@ -18,6 +44,18 @@ body{
    width: 100%;
    top: 0;  
 } 
+.second{
+   /* position: sticky; */
+   background-color: rgb(224, 15, 137);
+   color: white;
+   display: flex;
+   border: none;
+   justify-content: center;
+   gap: 50px;
+   align-items: center;
+   width: 100%;
+   height: 60px;
+}
 .third{
    /* position: fixed;  */
    background-color: rgb(128, 0, 64);
@@ -31,36 +69,33 @@ body{
    font-weight: bold;
    font-size: .9rem;
 }
-a{
-   text-decoration: none;
-   color: white;
-}
 a>img{
    box-sizing: border-box;
    width: 100px;
 }
-.second{
-   /* position: sticky; */
-   background-color: rgb(224, 15, 137);
-   color: white;
-   display: flex;
-   border: none;
-   justify-content: center;
-   gap: 50px;
-   align-items: center;
-   width: 100%;
-   height: 60px;
-}
-#a:hover, #b:hover, #c:hover, #d:hover{
+/* #a, #b, #c, #d{
+  transition: all 2s ;
+} */
+#a:hover, #b:hover, select:hover, #d:hover{
    color: pink;
    background-color: white;
    padding: 33px;
    box-sizing: border-box;
+
 }
 #d, select{
-   background-color: rgb(224, 15, 144);
+   background-color:transparent;
    color: white;
    border: none;
+}
+
+select{
+  padding: 0.2em  0.5em 0.2em 1.5em;
+  background-image: url(question-mark.png);
+  background-repeat:no-repeat ;
+  background-size: 1.5em auto;
+  background-position: left;
+  color: white;
 }
 #search{
    width: 500px;
@@ -99,37 +134,6 @@ button{
 input{
    outline: none;
 }
-/* 
-#e, #f{
-   margin-left: -30px;
-   
-}
-#g{
-   margin-left: -20px;
-} */
-.row1, .row2,.row3,.row4,.row5,.row6,.row7,.row8,.row9,.row10,.row11{
-   width: 80%;
-   height: 500px;
-   display: flex;
-   overflow: hidden;
-   justify-content: center;
-   gap: 50px;
-   margin-top: 20px;
-   
-}
-.row1 > div,.row2 > div, .row3 > div, .row4 > div, .row5 > div, .row6 > div, .row7 > div, .row8 > div, .row9 > div, .row10 > div, .row11 > div{
-   background-color: white;
-   height: 480px;
-   width: 300px;
-   box-shadow:  0 0 4px 2px gray;
-    
-}
-.row1 > div:hover, .row1 > div:hover, .row2 > div:hover, .row3 > div:hover, .row4 > div:hover, .row5 > div:hover, .row6 > div:hover, .row7 > div:hover, .row8 > div:hover, .row9 > div:hover, .row10 > div:hover, .row11 > div:hover{
-   background-color: white;
-   height: 480px;
-   width: 300px;
-   box-shadow: 0 0 4px 4px gray; 
-   }
 span{
    background-color: pink;
    margin: 5px;
@@ -142,98 +146,106 @@ span{
    margin-left: 180px;
 }
 .strike{
-    text-decoration: line-through;
+   text-decoration: line-through;
+   color: black;
 }
 .bold{
-   display: flex;
-   gap: 26px;
+  display: flex;
+  gap: 26px;
 }
 .price{
-   font-size: 0.95rem;
-   font-weight: bolder;
+  font-size: 0.95rem;
+  font-weight: bolder;
+  color: black;
 }
-#a-cart{
-   color:rgb(243, 33, 68) ;
-   border: 2px solid red;
-   padding: 10px 70px;
-   height: 10px;
-   font-weight: bold;
-   box-sizing: border-box;
-   border-radius: 5px;
+.a-cart{
+  color:rgb(243, 33, 68) ;
+  border: 2px solid red;
+  padding: 10px 80px;
+  height: 10px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
-#a-cart:hover{
-   background-color: rgb(243, 33, 68);
-   color: white;
+.a-cart:hover{
+  background-color: rgb(243, 33, 68);
+  color: white;
 }
 p{
-   text-align: left;
-   padding: 5px;
+  text-align: left;
+  padding: 5px;
+  color: black;
 }
-.move{
-   margin-left: 27%;
-}
+/* .move{
+  margin-left: 27%;
+} */
 .top-text{
-   text-align: left;
-   width: 100%;
-   height: 120px;
-   background-color: white;
-   padding: 20px 70px;
-   box-sizing: border-box;
+  text-align: left;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  padding: 20px 70px;
+  box-sizing: border-box;
 }
 #top-text1, #top-text2{
-   margin-left: 15px;
-   
+  margin-left: 1px;
+  
+}
+#top-text2{
+   font-size: 2rem;
+   margin-top: 1px;
 }
 #gray{
-   color: gray;
-   background-color: white;
-   margin: 0;
+  color: gray;
+  background-color: white;
+  margin: 0;
 }
 #purple{
-   color: rgb(224, 15, 144);
-   background-color: white;
-   font-weight: bold;
-   margin: 0px;
+  color: rgb(224, 15, 144);
+  background-color: white;
+  font-weight: bold;
+  margin: 0px;
 }
 #banner{
-   width: 92%;
-  margin-left: 2%;
-   
+  width: 92.5%;
+ margin-left: 0.6%;
+  
 }
-#bar_outer{
-   background-color: gray;
-   width: 100px;
-   height: 9px;
-   border-radius:5px;
-   margin-right: 5px;
+.bar_outer{
+  background-color: gray;
+  width: 100px;
+  height: 9px;
+  border-radius:5px;
+  margin-right: 5px;
 }
-#bar_inner{
-   background-color: green;
-   width: 50px;
-   height: 9px;
-   border-radius: 5px;
-    }
+.bar_inner{
+  background-color: green;
+  width: 50px;
+  height: 9px;
+  border-radius: 5px;
+   }
 .item{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer1{
-   background-color: rgb(66, 66, 66);
-   display: flex;
-   justify-content: center;
-   gap: 24px;
-   align-items: center;
-   width: 100%;
-   height: 70px;
-   color: white;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: white;
+  margin-top: 24px;
 }
 .footer2{
-   background-color: black;
-   display: flex;
-   width: 100%;
-   height: 280px;
-   color: rgb(231, 227, 227);
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 280px;
+  color: rgb(231, 227, 227);
 }
 .footer{
 display: flex;
@@ -243,65 +255,173 @@ color: rgb(231, 227, 227);
 background-color: black;
 }
 #hr1{
-   width: 620px;
-   height: 0px;
-   margin: 0%;
-   color: rgb(231, 227, 227);;
+  width: 620px;
+  height: 0px;
+  margin: 0%;
+  color: rgb(231, 227, 227);;
 }
 #hr2{
-   width: 665px;
-   height: 0px;
-   margin: 0%;
-   color: rgb(231, 227, 227);;
+  width: 665px;
+  height: 0px;
+  margin: 0%;
+  color: rgb(231, 227, 227);;
 }
 #copy{
-   margin-top: -11px;
-   font-size: .8rem;
-   font-family: Arial, Helvetica, sans-serif;
+  margin-top: -11px;
+  font-size: .8rem;
+  font-family: sans-serif;
+  color: white;
 }
- .subfoot{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
+.subfoot{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+#phone, #whatsapp, #mail, #deal{
+  text-align: left;
+}
+#back, #back2{
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+#back3{
+  background-color: rgb(119, 114, 114);
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+#sub{
+  background-color: rgb(248, 55, 119);
+  width: 100px;
+  margin-left: -5px;
+  font-weight: bold;
+}
+#email{
+  width: 300px;
+  height: 30px;
+}
+#deal > p{
+  color: white;
+}
+@media  only screen and (max-width: 400px) {
+ body{
+      width: 380px;
+   }
+   .first, .second, .third{
+      display: none;
+   }
+   #banner{
+      display: none;
+   }
+   #top-text2{
+      font-size: 1rem;
+   }
+   .row1, .row2, .row3,.row4, .row5,.row6,.row7, .row8, .row9, .row10, .row11{
+      display: flex;
+      flex-wrap: wrap;
+      
+     justify-content: center;
+      overflow: hidden;
+      
+   }
+   
+   .footer,.footer1, .footer2{
+      display: none;
+   }
+   
+  #deal{
+      display: none;
+  }
+   #bar_outer{
+    background-color: gray;
+    width: 80px;
+    height: 9px;
+    border-radius:5px;
+    margin-right: 25px;
  }
- #phone, #whatsapp, #mail, #deal{
-    text-align: left;
+ #bar_inner{
+    background-color: green;
+    width: 40px;
+    height: 9px;
+    border-radius: 5px;
+     }
+ .bold{
+    gap: 12px;
  }
- #back, #back2{
-    background-color: white;
-    color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+ #a-cart{
+   padding: 10px 50px;
+   margin-left: 0px; 
+ } 
+  
+}
+@media  only screen and (min-width: 400px) and (max-width:700px) {
+ body{
+      width: 660px;
+   }
+   .first, .second, .third{
+      display: none;
+   }
+   #banner{
+      display: none;
+   }
+ 
+ #top-text1{
+    font-size: 1.2rem;
     text-align: center;
-    padding: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
+    margin-left: -45px;
  }
- #back3{
-    background-color: rgb(119, 114, 114);
-    color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-    padding: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
+   #top-text2{
+      font-size: 1.5rem;
+      text-align: center;
+   }
+   .row1, .row2, .row3,.row4, .row5,.row6,.row7, .row8, .row9, .row10, .row11{
+      display: flex;
+      flex-wrap: wrap;
+      
+     justify-content: center;
+      overflow: hidden;
+      
+   }
+   
+   .subfoot{
+      display: none;
+   }
+   
+  #deal{
+      display: none;
+  }
+   #bar_outer{
+    background-color: gray;
+    width: 80px;
+    height: 9px;
+    border-radius:5px;
+    margin-right: 25px;
  }
- #sub{
-    background-color: rgb(248, 55, 119);
-    width: 100px;
-    margin-left: -5px;
-    font-weight: bold;
+ #bar_inner{
+    background-color: green;
+    width: 40px;
+    height: 9px;
+    border-radius: 5px;
+     }
+ .bold{
+    gap: 12px;
  }
- #email{
-    width: 300px;
-    height: 30px;
- }
- @media screen and (max:700px) {
-    .first{
-        display: none;
-    }
- }
+ #a-cart{
+   padding: 10px 50px;
+   margin-left: 0px; 
+ } 
+}
+
