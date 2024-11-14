@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock | paper| scissors</title>
+</head>
+<body>
+  <script>
+    var computer = " ";
+      const number = Math.random();
+
+                if(number >= 0 && number <= 0.3){
+                    computer = "paper";
+                }
+                else if(number >= 0.3 && number <= 0.6){
+                    computer = "scissors";
+                }
+                else if(number >= 0.6 && number <= 1){
+                    computer = "rock";
+        }
+        console.log(number);
+        console.log(computer);
+        let select = window.prompt(['rock', 'paper', 'scissors']);
+        if (select === 'rock') {
+        switch (computer) {
+            case 'rock':
+                console.log("A tie");   
+                
+                break;
+            case 'paper':
+                console.log("you lose");   
+                break;
+            case 'scissors':
+                console.log("you win");   
+                break;
+            default:
+                console.log("no match");
+                
+                break;
+        }
+    }
+    else if(select === 'scissors'){
+        switch (computer) {
+            case 'scissors':
+                console.log("A tie");   
+                
+                break;
+            case 'rock':
+                console.log("you lose");   
+                break;
+            case 'paper':
+                console.log("you win");   
+                break;
+            default:
+                console.log("no match");
+                
+                break;
+        }
+    }
+        else if(select === 'paper'){
+        switch (computer) {
+            case 'paper':
+                console.log("A tie");   
+                
+                break;
+            case 'scissors':
+                console.log("you lose");   
+                break;
+            case 'rock':
+                console.log("you win");   
+                break;
+            default:
+                console.log("no match");
+                
+                break;
+        }
+    }
+    else
+    {
+        console.log('wrong selection');
+        
+    }
+  </script>
+</body>
+</html>
