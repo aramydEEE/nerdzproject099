@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock | paper| scissors</title>
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
+    <div class="container">
+        <button id="box" onclick="
+             game('rock');"> rock</button>
+        <button  id="anoBox" onclick="
+             game('paper');">paper</button>
+        <button  id="boxAgain" onclick="
+             game('scissors');">scissors</button>
+        <p id="text"></p>
+        <p id="text2"></p>
+        <p id="text3"></p>
+    </div>
   <script>
+    function game(select) {
     var computer = " ";
       const number = Math.random();
 
@@ -20,22 +33,22 @@
                     computer = "rock";
         }
         console.log(number);
-        console.log(computer);
-        let select = window.prompt(['rock', 'paper', 'scissors']);
+        
+        
         if (select === 'rock') {
         switch (computer) {
             case 'rock':
-                console.log("A tie");   
+            document.getElementById("text3").innerHTML = "A tie";   
                 
                 break;
             case 'paper':
-                console.log("you lose");   
+            document.getElementById("text3").innerHTML = "You lose";   
                 break;
             case 'scissors':
-                console.log("you win");   
+               document.getElementById("text3").innerHTML = "You win";   
                 break;
             default:
-                console.log("no match");
+                document.getElementById("text3").innerHTML = "No match";
                 
                 break;
         }
@@ -43,17 +56,17 @@
     else if(select === 'scissors'){
         switch (computer) {
             case 'scissors':
-                console.log("A tie");   
+                document.getElementById("text3").innerHTML = "A tie";   
                 
                 break;
             case 'rock':
-                console.log("you lose");   
+                document.getElementById("text3").innerHTML = "You lose";   
                 break;
             case 'paper':
-                console.log("you win");   
+                document.getElementById("text3").innerHTML = "You win";   
                 break;
             default:
-                console.log("no match");
+                document.getElementById("text3").innerHTML = "No match";
                 
                 break;
         }
@@ -61,26 +74,30 @@
         else if(select === 'paper'){
         switch (computer) {
             case 'paper':
-                console.log("A tie");   
+                document.getElementById("text3").innerHTML = "A tie";   
                 
                 break;
             case 'scissors':
-                console.log("you lose");   
+                document.getElementById("text3").innerHTML = "You lose";   
                 break;
             case 'rock':
-                console.log("you win");   
+                document.getElementById("text3").innerHTML = "You win";   
                 break;
             default:
-                console.log("no match");
+                document.getElementById("text3").innerHTML = "No match";
                 
                 break;
         }
     }
     else
     {
-        console.log('wrong selection');
+        document.getElementById("text3").innerHTML = 'Wrong selection';
         
     }
+
+   document.getElementById("text").innerHTML = `You clicked ${select}`;
+   document.getElementById("text2").innerHTML = `Computer's choice is ${computer}`;
+}
   </script>
 </body>
 </html>
