@@ -237,7 +237,7 @@ p{
   align-items: center;
   width: 100%;
   height: 70px;
-  color: white;
+  color: rgb(204, 201, 201);
   margin-top: 24px;
 }
 .footer2{
@@ -245,13 +245,13 @@ p{
   display: flex;
   width: 100%;
   height: 280px;
-  color: rgb(231, 227, 227);
+  color: rgb(204, 201, 201);
 }
 .footer{
 display: flex;
 width: 100%;
 height: 50px;
-color: rgb(231, 227, 227);
+color: rgb(204, 201, 201);
 background-color: black;
 }
 #hr1{
@@ -270,7 +270,7 @@ background-color: black;
   margin-top: -11px;
   font-size: .8rem;
   font-family: sans-serif;
-  color: white;
+  color: rgb(204, 201, 201);
 }
 .subfoot{
   display: flex;
@@ -280,6 +280,7 @@ background-color: black;
 }
 #phone, #whatsapp, #mail, #deal{
   text-align: left;
+  
 }
 #back, #back2{
   background-color: white;
@@ -314,11 +315,14 @@ background-color: black;
   height: 30px;
 }
 #deal > p{
-  color: white;
+  color: rgb(204, 201, 201);
+}
+h4 + a{
+  color: rgb(204, 201, 201);
 }
 @media  only screen and (max-width: 400px) {
  body{
-      width: 380px;
+      width:100vw;
    }
    .first, .second, .third{
       display: none;
@@ -329,11 +333,7 @@ background-color: black;
    #top-text2{
       font-size: 1rem;
    }
-   .row1, .row2, .row3,.row4, .row5,.row6,.row7, .row8, .row9, .row10, .row11{
-      display: flex;
-      flex-wrap: wrap;
-      
-     justify-content: center;
+   .container{
       overflow: hidden;
       
    }
@@ -369,7 +369,7 @@ background-color: black;
 }
 @media  only screen and (min-width: 400px) and (max-width:700px) {
  body{
-      width: 660px;
+      width:100vw;
    }
    .first, .second, .third{
       display: none;
@@ -387,18 +387,13 @@ background-color: black;
       font-size: 1.5rem;
       text-align: center;
    }
-   .row1, .row2, .row3,.row4, .row5,.row6,.row7, .row8, .row9, .row10, .row11{
-      display: flex;
-      flex-wrap: wrap;
-      
-     justify-content: center;
+   .container{
       overflow: hidden;
-      
    }
    
-   .subfoot{
-      display: none;
-   }
+   .footer,.footer1, .footer2{
+     display: none;
+  }
    
   #deal{
       display: none;
