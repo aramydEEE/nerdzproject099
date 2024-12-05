@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            border-radius: 50%;
+            border: none;
+
+        }
+        body{
+            background-color: rgb(171, 190, 190);
+            align-content: center;
+            height: 100vh;
+            text-align: center;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    
+    <button type="button">Click me</button>
+    <p id="cat"></p>
+    <script>
+    const req = new XMLHttpRequest();
+
+    const button = document.querySelector('button');
+    console.log(button)
+
+    button.addEventListener("click", () => {
+        req.open("GET", "https://catfact.ninja/facts");
+    req.onload = () => {
+        const response = JSON.parse(req.responseText);
+        
+        console.log(response.data[Math.floor(Math.random() * response.data.length)])
+       document.getElementById("cat").innerHTML =Object.values(response.data[Math.floor(Math.random() * response.data.length)]);
+    }
+
+    req.send()
+        
+    })
+    
+        // const getFacts = new Promise((resolve, reject) => {
+            // req.open("GET", "https://catfact.ninja/facts?limit=5&max_length=60");
+        // req.send();
+        // req.responseType = "json";
+        // req.onload = () => console.log( req.response);
+        // req.onerror = () => reject(req.statusText);
+        // })
+        // getFacts
+        // .then(result=>result.data)
+        // .then(result=>console.log(result))
+        // .catch(error=>console.error(error)
+        // )
+    </script>
+</body>
+</html>
