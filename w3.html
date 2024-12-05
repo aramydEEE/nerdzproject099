@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="background-color: aqua; width: 150px; height: 30px; border-radius: 20px;">
+        <a href="class-work2.html" style="position: absolute; left: 90px; margin-top: 5px; text-decoration: none; color: black;">Login</a>
+        
+        <div style="background-color: green; width: 80px; height: 30px;border-radius: 20px;text-align: center; align-content: center;"><a href="form.html" style="text-decoration: none; color: white;">SignUp</a>
+        
+    </div>
+    <p id="demo"></p>
+    <p id="check"></p>
+    <script>
+        // const car = {
+        //     name:" Fiat",
+        //     color:"white ",
+        //     model:500,
+        //     weight:"850kg"
+        // }
+        // const person = {
+        //     name:"peju",
+        //     complexion:"dark",
+        //     meal:{
+        //         morning: "beans",
+        //         afternoon:"eba",
+        //         evening:"pap"
+        //     },
+        //     drink:{
+        //         morning:"coffee",
+        //         afternoon: "pepsi",
+        //         evening:"milo"
+        //     }
+        // }
+        // let play = person.name.toLocaleUpperCase();
+        // console.log(car["name"]);
+        // console.log(play);
+
+
+
+
+        //    function Person(first, last, age, occupation, country){
+        //     this.firstName = first;
+        //     this.lastName = last;
+        //     this.age = age;
+        //     this.occupation = occupation;
+        //     this.country = country;
+            
+        // }
+        // const myMother = new Person("Sherifah", "Jimoh", "80years", "retired", "Nigeria");
+
+        // // how to display an object
+        // console.log(Object.values(myMother));            // method 1
+        
+        // myMother.firstName = "Morufat";
+        // console.log(myMother.firstName);              
+        // const myFather = new Person("Olatidoye", "Salahudeen", "95years", "retired", "Nigeria")
+        // console.log(myFather);
+
+        // let textbook = " ";  // method 2
+        // for(let [attributes, value] of Object.entries(myMother)){
+        //     textbook += "\t" + attributes + ":" + value + "\n";
+        // }
+        // console.log(textbook);
+
+        // let text = " ";      //method 3
+        // for(let x in myMother){
+        //     text += myMother[x] + " ";
+        // }
+        // console.log(text);
+        
+        
+        // console.log(JSON.stringify(myMother));   // method 4
+        
+        // console.log(page.length);
+        // javascript in-built object constructor in line 78.
+        //  new Object (),  new Array(),  new Function(), new RegExp(), new Map(), new Date(), new Set()
+      console.log(Date());
+        
+        // const c= [1,2,3,4,5];
+        // const d = c;
+        // d[2] = 6;
+        // console.log(typeof function(){});
+        // console.log(c);
+        
+        const fruits = ["Banana", "Mango", "Apple", "Paw-paw"];
+        let list = "<ul>";
+            fruits.forEach( function myFunction(value) {
+                list += "<li>" + value + "</li>";
+            });
+            list += "</ul>";
+            document.getElementById("demo").innerHTML = list;
+
+            // function myFunction(value) {
+            //     list += "<li>" + value + "</li>";
+            // }
+            // document.getElementById("check").innerHTML = myFunction;
+     
+    </script>
+</body>
+</html> 
